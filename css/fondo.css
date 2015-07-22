@@ -1,0 +1,32 @@
+body{
+  margin: 0;
+}
+.fondo{
+
+  background-size: cover;
+}
+.fondo-fixed{
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.fondo-1 {
+  background-image: url(../images/2.jpg);
+}
+.fondo-2 {
+  background-image: url(../images/3.jpg);
+}
+.fondo-3 {
+  background-image: url(../images/4.jpg);
+}
+.modulo-alto {
+  padding: 1em;
+  min-height: 100vh;
+  text-align: center;
+}
+h1{
+  margin: 40vh auto;
+  font-family: Ubuntu;
+  padding: 30px 0;
+  background-color: rgba(255,255,255,0.8)
+}
